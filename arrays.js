@@ -37,12 +37,13 @@ console.log(middleNums)
 */
 
 // CODE HERE
-function bigOrSmall () {
-  let answers = []
+function bigOrSmall (arr) {
   arr = [5, 100, 24, 256, 23]
+  let answers = []
   console.log(arr)
   for (let i = 0; i < arr.length; i++){
     console.log(arr[i])
   }
 
 }
+bigOrSmall

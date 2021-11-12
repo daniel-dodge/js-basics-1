@@ -10,7 +10,7 @@
 */
 
 //CODE HERE
-
+let gitDefinition = "A terminal that lets people save versions of their code and upload them to Github"
 //////////////////PROBLEM 2////////////////////
 /*
     Create a variable called 'gitHubDefinition'.  
@@ -18,7 +18,7 @@
 */
 
 //CODE HERE
-
+let gitHubDefinition = "A website in which you create repositories that you can upload your files to"
 //////////////////PROBLEMS 3 - 8////////////////////
 /*
     For the next several problems you will be creating objects containing information about different git 
@@ -34,7 +34,7 @@
 */
 
 //CODE HERE
-
+let init = {description = "Initializes git on a directory", code = "git init"}
 //////////////////PROBLEM 4////////////////////
 /*
     Create an object called 'clone' with 'description' and 'code' properties 
@@ -42,7 +42,7 @@
 */
 
 //CODE HERE
-
+let clone = {description = "Copies an existing repository and puts it in a desired directory", code = "git clone (url of repository)"}
 //////////////////PROBLEM 5////////////////////
 /*
     Create an object called 'status' with 'description' and 'code' properties 
@@ -50,7 +50,7 @@
 */
 
 //CODE HERE
-
+let status = {description = "Gives the status of modification changes on git files", code = "git status"}
 //////////////////PROBLEM 6////////////////////
 /*
     Create an object called 'add' with 'description' and 'code' properties 
@@ -58,15 +58,15 @@
 */
 
 //CODE HERE
-
+let add = {description = "Makes the selected files available to being committed ", code = "git add ."}
 //////////////////PROBLEM 7////////////////////
 /*
     Create an object called 'commit' with 'description' and 'code' properties
     following the guidelines above to describe the commit command.
 */
 
-//CODE HERE
-
+//CODE HERE 
+let commit = {description = "Saves a snapshot of the current project", code = "git init -m '(comment)'"}
 
 //////////////////PROBLEM 8////////////////////
 /*
@@ -75,3 +75,4 @@
 */
 
 //CODE HERE
+let push = {description = "Uploads the directory onto a Github repository", code = "git push -u origin main"}
